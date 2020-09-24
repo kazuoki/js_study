@@ -16,19 +16,26 @@ button.addEventListener('click', () => {
 const box = document.getElementById('box');
 
 // マウスが乗った時
-box.addEventListener(
-  'mouseenter',
-  // e.targetはイベント発生元の要素（<div id="box">）
-  (e) => {
-    e.target.textContent = 'マウスが乗った！';
-  }
-);
+// box.addEventListener(
+//   'mouseenter',
+//   // e.targetはイベント発生元の要素（<div id="box">）
+//   (e) => {
+//     e.target.textContent = 'マウスが乗った！';
+//   }
+// );
 
 
 // マウスが離れた時
-box.addEventListener(
-  'mouseleave',
-  (e) => {
-  e.target.textContent = 'マウスが離れた！';
-  }
-);
+// box.addEventListener(
+//   'mouseleave',
+//   (e) => {
+//   e.target.textContent = 'マウスが離れた！';
+//   }
+// );
+box.addEventListener('mouseenter',(e) => {
+  e.target.textContent=('つかれたよん');
+})
+
+box.addEventListener('mouseleave',(e) => {
+  e.target.textContent=('お疲れ様');
+})

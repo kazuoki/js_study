@@ -23,3 +23,12 @@ box.addEventListener(
     e.target.textContent = 'マウスが乗った！';
   }
 );
+
+
+// マウスが離れた時
+box.addEventListener(
+  'mouseleave',
+  (e) => {
+  e.target.textContent = 'マウスが離れた！';
+  }
+);

@@ -8,6 +8,7 @@ document.getElementById('box').textContent='こんばんは';
 // });
 
 const button = document.getElementById('my-button');
+const button2 = document.getElementById('my-button2');
 
 button.addEventListener('click', () => {
   alert('押された！');
@@ -44,4 +45,9 @@ const form = document.getElementById('my-form');
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   console.log('value: ', input.value);
+});
+
+// ボタンを押した時のイベント
+button2.addEventListener('click', () => {
+  box.innerHTML += 'どん！<br>';
 });

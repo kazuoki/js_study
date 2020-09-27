@@ -3,9 +3,6 @@ document.getElementById('box').textContent='こんばんは';
 // document.getElementById('box').textContent='abc'+'def';
 // document.getElementById('box').textContent = 1+ 1;
 // const button = document.getElementById('my-button');
-// button.addEventListener('click', () => {
-
-// });
 
 const button = document.getElementById('my-button');
 const button2 = document.getElementById('my-button2');

@@ -45,5 +45,5 @@ form.addEventListener('submit', (e) => {
 
 // ボタンを押した時のイベント
 button2.addEventListener('click', () => {
-  box.innerHTML += 'どん！<br>';
+  box.innerHTML += '<br>どん！';
 });
